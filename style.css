@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-top: 30px;
+    padding: 20px 5px;
+    background-color: rgb(196, 200, 255);
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+nav ul {
+    text-align: center;
+    display: inline;
+    margin: 50px;
+}
+
+.presentation {
+    text-align: center;
+}
+.presentation p:nth-child(1){
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: -110px;
+    /* background-color: #fff; */
+
+}
+.carousel img {
+    width: 100%;
+}
+.carte img{
+    border-radius: 200%;
+    width: 20%;
+    margin-top: -50px;
+}
+
+#carousel  {
+    background-image: url("img/danube_01.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+#carousel p:nth-child(1){
+    font-size: xx-large;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+    font-family: 'Playfair Display', serif;
+    
+}
+#carousel p:nth-child(2){
+    margin-top: 100px;
+    font-family: 'Caveat', cursive;
+    color: aliceblue;
+    font-size: 100px;
+}
+
+footer{
+    
+}
